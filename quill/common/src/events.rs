@@ -5,8 +5,10 @@ pub use change::{
 };
 pub use entity::{EntityCreateEvent, EntityRemoveEvent, PlayerJoinEvent};
 pub use interact_entity::InteractEntityEvent;
+pub use player::PlayerChatEvent;
 
 mod block_interact;
 mod change;
 mod entity;
 mod interact_entity;
+mod player;

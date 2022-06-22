@@ -14,6 +14,7 @@ mod chunk_subscriptions;
 pub mod client;
 pub mod config;
 mod connection_worker;
+mod commands;
 mod entities;
 pub mod favicon;
 mod initial_handler;
